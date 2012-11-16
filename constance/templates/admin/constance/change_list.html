@@ -57,7 +57,7 @@
                             {{item.form_field}}
                         </td>
                     <td>
-                        <img src="{% if item.modified %}{% static "admin/img/icon-success.gif" %}{% else %}{% static "admin/img/icon-no.gif" %}{% endif %}" alt="{{ item.modified }}" />
+                        <img src="{% if item.modified %}{% static "admin/img/icon-yes.gif" %}{% else %}{% static "admin/img/icon-no.gif" %}{% endif %}" alt="{{ item.modified }}" />
                     </td>
                     </tr>
                 {% endfor %}
